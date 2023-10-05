@@ -35,7 +35,7 @@ public class PredicateFourAndSixRACC {
             int day2 = 2;
             int year = 1598;
             int result = Cal.cal(month1, day1, month2, day2, year);
-            fail("testing month1>month2, error on month1");
+            fail("testing month1 > month2, error on month1");
         } catch (Exception e) {
             assertEquals("month1 must be less than or equal to month2", e.getMessage());
         }

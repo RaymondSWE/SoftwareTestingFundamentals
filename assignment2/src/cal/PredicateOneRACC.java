@@ -31,9 +31,9 @@ public class PredicateOneRACC {
             int d2 = 3;
             int year = 1598;
             int result = Cal.cal(m1, d1, m2, d2, year);
-            fail("error on month2");
+            fail("Error on TC_2 for when month2 is 13");
         } catch (Exception e) {
-            assertEquals("month2 must be <12", e.getMessage());
+            assertEquals("month2 must be < 12", e.getMessage());
         }
     }
 
@@ -48,7 +48,7 @@ public class PredicateOneRACC {
             int d2 = 3;
             int year = 1598;
             int result = Cal.cal(m1, d1, m2, d2, year);
-            fail("error on month2");
+            fail("Error on TC_3 for when month2 is 0");
         } catch (Exception e) {
             assertEquals("month2 must be >0", e.getMessage());
 
@@ -65,9 +65,9 @@ public class PredicateOneRACC {
             int d2 = 3;
             int year = 1598;
             int result = Cal.cal(m1, d1, m2, d2, year);
-            fail("error on month2");
+            fail("Error on TC_4 for when month1 is 13");
         } catch (Exception e) {
-            assertEquals("month1 must be <=12", e.getMessage());
+            assertEquals("month1 must be <= 12", e.getMessage());
         }
 
     }
@@ -83,9 +83,9 @@ public class PredicateOneRACC {
             int d2 = 3;
             int year = 1598;
             int result = Cal.cal(m1, d1, m2, d2, year);
-            fail("expected error on month 1");
+            fail("Error on TC_5 for when mont1 is 0");
         } catch (Exception e) {
-            assertEquals("month 1 must be >1", e.getMessage());
+            assertEquals("month 1 must be > 1", e.getMessage());
         }
 	}
 	

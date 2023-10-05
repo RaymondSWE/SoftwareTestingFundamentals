@@ -1,0 +1,51 @@
+
+r
+java:S11921"PDefine a constant instead of duplicating this literal "error on month2" 3 times.(”üŸøúÿÿÿÿ8ƒ´š‡°1
+W
+java:S1854":Remove this useless assignment to local variable "result".(ûÚ²â8´š‡°1
+H
+java:S1481"+Remove this unused "result" local variable.(ûÚ²â8´š‡°1
+G	java:S106#"+Replace this use of System.out by a logger.(ıåˆ¿8’´š‡°1
+W
+java:S18540":Remove this useless assignment to local variable "result".(ûÚ²â8“´š‡°1
+H
+java:S14810"+Remove this unused "result" local variable.(ûÚ²â8”´š‡°1
+W
+java:S1854A":Remove this useless assignment to local variable "result".(ûÚ²â8–´š‡°1
+H
+java:S1481A"+Remove this unused "result" local variable.(ûÚ²â8—´š‡°1
+W
+java:S1854R":Remove this useless assignment to local variable "result".(ûÚ²â8˜´š‡°1
+H
+java:S1481R"+Remove this unused "result" local variable.(ûÚ²â8™´š‡°1
+G	java:S106b"+Replace this use of System.out by a logger.(µêÔĞ8›´š‡°1
+W
+java:S1854o":Remove this useless assignment to local variable "result".(¦ç¶ê8œ´š‡°1
+H
+java:S1481o"+Remove this unused "result" local variable.(¦ç¶ê8´š‡°1
+W
+java:S1854":Remove this useless assignment to local variable "result".(¦ç¶ê8´š‡°1
+H
+java:S1481"+Remove this unused "result" local variable.(¦ç¶ê8Ÿ´š‡°1
+X
+java:S1854":Remove this useless assignment to local variable "result".(¦ç¶ê8¡´š‡°1
+I
+java:S1481"+Remove this unused "result" local variable.(¦ç¶ê8¡´š‡°1
+X
+java:S1854¡":Remove this useless assignment to local variable "result".(¦ç¶ê8£´š‡°1
+I
+java:S1481¡"+Remove this unused "result" local variable.(¦ç¶ê8£´š‡°1
+X
+java:S1854²":Remove this useless assignment to local variable "result".(¦ç¶ê8¥´š‡°1
+I
+java:S1481²"+Remove this unused "result" local variable.(¦ç¶ê8¦´š‡°1
+X
+java:S1854Ã":Remove this useless assignment to local variable "result".(¦ç¶ê8§´š‡°1
+I
+java:S1481Ã"+Remove this unused "result" local variable.(¦ç¶ê8¨´š‡°1
+M	java:S106Ô"+Replace this use of System.out by a logger.(‚ñ¸¦şÿÿÿÿ8ª´š‡°1
+X
+java:S1854á":Remove this useless assignment to local variable "result".(¦ç¶ê8«´š‡°1
+I
+java:S1481á"+Remove this unused "result" local variable.(¦ç¶ê8¬´š‡°1
+M	java:S106ñ"+Replace this use of System.out by a logger.(¶û™«øÿÿÿÿ8®´š‡°1

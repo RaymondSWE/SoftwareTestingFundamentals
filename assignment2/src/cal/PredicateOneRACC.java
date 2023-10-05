@@ -18,7 +18,7 @@ public class PredicateOneRACC {
         int year = 1598;
         int result = Cal.cal(m1, d1, m2, d2, year);
         System.out.println("the result is" + result);
-        assertEquals("m1>=1", 29, result);
+        assertEquals("Testing for when all variables are inside the boundry (TTTT)", 29, result);
     }
     
     //testing for when month2 is >12

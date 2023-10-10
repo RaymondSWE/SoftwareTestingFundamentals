@@ -8,7 +8,7 @@ import org.junit.Test;
 public class PredicateThreeRACC {
 	
  
-    //testing when year is inside boundries (TT)
+    //testing when year is inside boundaries (TT)
     @Test
     public void TC_11() {
         int year = 1;
@@ -18,7 +18,7 @@ public class PredicateThreeRACC {
         int day2 = 2;
         int result = Cal.cal(month1, day1, month2, day2, year);
         System.out.println("the result when testing year is" + result);
-        assertEquals("testing year=1", 1, result);
+        assertEquals("testing year = 1", 1, result);
     }
 	
     //testing for when year is > 10000 (FT)

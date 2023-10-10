@@ -1,15 +1,8 @@
 package cal;
-
 import static org.junit.Assert.*;
-
-
 import org.junit.Test;
 
-import cal.Cal;
-
 public class PredicateFourAndSixRACC {
-	
-	
 	
     //testing for when month1==month2 and also applies for when month1 <= month2 (True)
     @Test

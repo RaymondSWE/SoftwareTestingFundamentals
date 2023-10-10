@@ -1,7 +1,6 @@
 package cal;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
@@ -21,7 +20,6 @@ public class PredicateSevenRACC {
             assertEquals("m1>=1", 29, result);
     }
     
-	
     //Testing for when year is 1900, m4 = 0, m100 = 0, m400 = 300 with year 1900 (FTT)
     @Test
     public void TC_18() {
@@ -48,9 +46,4 @@ public class PredicateSevenRACC {
             assertEquals("m1>=1", 29, result);
     }
     
-    
-    
-    
-    
-
 }

@@ -30,16 +30,14 @@ public class PredicateTwoRACC {
             int day2 = 32;
             int year = 1598;
             int result = Cal.cal(month1, day1, month2, day2, year);
-            fail("error on day2");
+            fail("Error on day2 when day2 is 32");
         } catch (Exception e) {
-            assertEquals("day2 must be <32", e.getMessage());
+            assertEquals("day2 must be < 32", e.getMessage());
 
         }
     }
     
-
-    
-    //testing for when day1 is >31 (TTFT)
+    //testing for when day1 is > 31 (TTFT)
     @Test
     public void TC_8() {
         try {
@@ -49,9 +47,9 @@ public class PredicateTwoRACC {
             int day2 = 5;
             int year = 1598;
             int result = Cal.cal(month1, day1, month2, day2, year);
-            fail("error on day1");
+            fail("Error on day1 when day1 is 32");
         } catch (Exception e) {
-            assertEquals("day1 must be <32", e.getMessage());
+            assertEquals("day1 must be < 32", e.getMessage());
         }
     }
     
@@ -65,9 +63,9 @@ public class PredicateTwoRACC {
             int day2 = 0;
             int year = 1598;
             int result = Cal.cal(month1, day1, month2, day2, year);
-            fail("error on day2");
+            fail("Error on day2 when day2 is 0");
         } catch (Exception e) {
-            assertEquals("day2 must be >0", e.getMessage());
+            assertEquals("day2 must be > 0", e.getMessage());
 
         }
     }
@@ -82,15 +80,11 @@ public class PredicateTwoRACC {
             int day2 = 5;
             int year = 1598;
             int result = Cal.cal(month1, day1, month2, day2, year);
-            fail("error on day1");
+            fail("Error on day1 when day1 is 0");
         } catch (Exception e) {
-            assertEquals("day1 must be >0", e.getMessage());
+            assertEquals("day1 must be > 0", e.getMessage());
 
         }
     }
-    
-
-
-	
 
 }

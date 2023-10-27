@@ -4,7 +4,6 @@ This repository is dedicated to the practices and concepts learned in a Universi
 It explores various testing methodologies including but not limited to du-path testing, du-pairs, mutation testing with ror, aor mutants, all-definition, all-use testing, and prime path testing.
 
 ## Table of Contents
-- Getting Started
 - Du-Path Testing
 - Du-Pairs
 - Mutation Testing
